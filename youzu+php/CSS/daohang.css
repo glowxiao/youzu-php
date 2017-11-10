@@ -1,0 +1,25 @@
+@CHARSET "UTF-8";
+*{margin:0px;padding:0px;}
+input:hover{cursor:pointer;}
+a{text-decoration:none;text-align:center;display:inline-block;}
+.top{width:1349px;height:73px;position:relative;margin:0px auto;background:#FFF;border-bottom:2px solid #DBDBDB;}
+.logo{width:151px;height:50px;position:absolute;left:50px;top:10px;background:url('../img/daohang/teamIcom.png');}
+.top ul.ul1{width:700px;height:73px;position:absolute;left:235px;}
+.top ul.ul1 li{margin-left:10px;width:90px;height:73px;list-style:none;float:left;text-align:center;line-height:73px;position:relative;}
+.top ul.ul1 li a{text-decoration:none;text-align:center;list-style:none;float:left;line-height:73px;font-size:18px;color:black;}
+.top .ul2{width:180px;height:73px;position:absolute;left:950px;}
+.top .ul2 li{list-style:none;height:73px;text-align:center;float:left;margin-top:25px;font-size:16px;color:#6C6C6C;}
+.top .ul2 li:hover{color:#F58120;cursor:pointer;}
+.top .select1{width:105px;height:30px;position:absolute;left:1060px;top:19px;border:1px solid black;text-align:center;}
+.top .ul1 li a.active{diaplay:inline-block;width:90px;height:73px;color:#F58120;border-bottom:2px solid #F58120;}
+.top ul.ul1 li span{display:inline-block;width:0px;border-bottom:2px solid #F58120;position:absolute;top:73px;left:0px;}
+
+
+
+.down{width:1348px;height:200px;position:relative;}
+.down span{display:inline-block;width:151px;height:50px;background:url('../img/daohang/teamIcom.png');position:absolute;top:20px;left:100px;}
+.down ul{width:1000px;height:50px;margin-left:350px;}
+.down ul:nth-of-type(1) li{width:100px;height:40px;list-style:none;float:left;border-left:1px solid #E6E6E6;padding-left:10px;padding-top:10px;}
+.down ul:nth-of-type(1) li:nth-of-type(1){border:none;}
+.down ul:nth-of-type(2) li{width:80px;height:40px;list-style:none;float:left;padding-left:10px;padding-top:10px;color:#F58120;}
+.down ul:nth-of-type(3) li{width:175px;height:40px;list-style:none;float:left;padding-top:10px;}

@@ -1,0 +1,43 @@
+@CHARSET "UTF-8";
+.main{width:1349px;height:1015px;}
+.div1{width:1200px;height:400px;margin:0px auto;margin-top:30px;}
+.div2{width:1200px;height:200px;margin:0px auto;margin-top:10px;}
+.div3{width:1200px;height:300px;margin:0px auto;margin-top:10px;}
+.main ul{border:1px solid #6c6c6c;border-top:2px solid #F58120;}
+.main ul li{list-style:none;float:left;}
+.div1 p,.div2 p,.div3 p{width:1200px;height:60px;line-height:60px;position:relative;}
+.div1 p a,.div2 p a:nth-of-type(1),.div3 p a:nth-of-type(1){font-weight:bold;width:100px;height:40px;line-height:40px;font-size:20px;color:#F58120;}
+.div1 p input{width:200px;height:30px;position:absolute;left:993px;top:15px;}
+.div1 p span{display:inline-block;width:20px;height:20px;position:absolute;top:21px;left:1175px;background:url(../img/keFu/service_icon.png);background-position-x:-57px;background-position-y:-408px;}
+.div2 p a:nth-of-type(2),.div3 p a:nth-of-type(2){position:absolute;top:15px;left:1140px;color:#6c6c6c;}
+.div1 ul{border:1px solid #6c6c6c;width:1200px;height:330px;}
+.div1 li{width:235px;height:330px;border-left:1px solid #6c6c6c;position:relative;}
+.div1 li a{display:inline-block;width:200px;height:100px;position:absolute;top:40px;left:85px;}
+.div1 li span{display:inline-block;width:50px;height:50px;background:url(../img/keFu/service_icon.png);}
+.div1 li:nth-of-type(1) span{background-position-x:-2px;background-position-y:-432px;}
+.div1 li:nth-of-type(2) span{background-position-x:-55px;background-position-y:-432px;}
+.div1 li:nth-of-type(3) span{background-position-x:-112px;background-position-y:-432px;}
+.div1 li:nth-of-type(4) span{background-position-x:-168px;background-position-y:-432px;}
+.div1 li:nth-of-type(5) span{background-position-x:-221px;background-position-y:-432px;}
+.div1 li a:hover{cursor:pointer;}
+.div1 li:nth-of-type(1) a:hover span{background-position-x:-2px;background-position-y:-482px;}
+.div1 li:nth-of-type(2) a:hover span{background-position-x:-55px;background-position-y:-482px;}
+.div1 li:nth-of-type(3) a:hover span{background-position-x:-112px;background-position-y:-482px;}
+.div1 li:nth-of-type(4) a:hover span{background-position-x:-168px;background-position-y:-482px;}
+.div1 li:nth-of-type(5) a:hover span{background-position-x:-221px;background-position-y:-482px;}
+.div1 li b{display:inline-block;position:absolute;top:55px;left:0px;font-size:20px;}
+.div1 li i{font-style:normal;position:absolute;top:145px;left:65px;}
+.div2 ul{width:1100px;height:150px;padding-left:100px;border:1px solid #6c6c6c;}
+.div2 ul li{width:100px;height:40px;background:#E6E6E6;border:0px;margin-left:20px;line-height:40px;text-align:center;margin-top:50px;}
+.div2 ul li:hover{cursor:pointer;background:#F58120;color:white;}
+
+.div3 ul{width:1200px;height:237px;border:1px solid #6c6c6c;}
+.div3 ul li{width:300px;height:200px;margin-left:20px;position:relative;border:1px solid #6c6c6c;margin-top:20px;}
+.div3 ul li:nth-of-type(1){margin-left:100px;}
+.div3 ul li a{display:inline-block;width:120px;position:absolute;top:50px;left:15px;font-size:30px;color:#6c6c6c;}
+.div3 ul li b{font-weight:normal;color:#F58120;position:absolute;top:90px;left:15px;font-size:20px;}
+.div3 ul li span{display:inline-block;width:60px;height:60px;background:url(../img/keFu/service_icon.png);position:absolute;top:55px;left:220px;}
+.div3 ul li:nth-of-type(1) span{background-position-x:2px;background-position-y:-540px;}
+.div3 ul li:nth-of-type(2) span{background-position-x:-52px;background-position-y:-540px;}
+.div3 ul li:nth-of-type(3) span{background-position-x:-108px;background-position-y:-540px;}
+.div3 ul li p{width:300px;height:30px;background:#F58120;position:absolute;top:171px;line-height:30px;color:white;text-align:center;}

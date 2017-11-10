@@ -1,0 +1,55 @@
+@CHARSET "UTF-8";
+.main{width:1349px;height:1500px;border:1px solid black;}
+.main .up{width:1200px;height:500px;margin:0px auto;margin-top:20px;}
+.main .down1{width:1200px;height:850px;margin:0px auto;}
+.up .left{width:875px;height:480px;position:relative;overflow:hidden; float:left;}
+.box{width:875px;height:960px;position:absolute;top:0px;left:0px;}
+.point{width:100px;height:20px;position:absolute;top:390px;left:750px;}
+.point li{width:20px;height:20px;float:left;list-style:none;margin-left:15px;border:1px solid black;border-radius:10px;background:#E6E6E6;}
+.point .chu{background:#F58120;}
+.up .right{width:320px;height:480px;float:left;}
+.right1{width:300px;height:120px;margin:0px auto;border:1px solid #cdd6e5;border-top:2px solid #F68121;}
+.right1 ul li{list-style:none;width:150px;height:60px;text-align:center;float:left;line-height:60px;}
+.right1 input{width:100px;height:40px;margin:0px auto;line-height:40px;border-radius:8px;background:#F68121;color:white;border-width:0px;font-size:16px;}
+.right1 span{color:#6c6c6c;}
+.right1 ul li:nth-of-type(1){font-weight:bold;font-size:30px;}
+.right1 ul li:nth-of-type(3){font-size:20px;}
+.right2{width:300px;height:210px;margin-top:20px;margin-left:10px;border:1px solid #cdd6e5;border-top:2px solid #F68121;position:relative;}
+.right2 span{display:inline-block;width:60px;text-align:center;color:white;height:60px;position:absolute;top:0px;left:240px;background:url(../img/shop/sprite_eshop.png);}
+.right2 ul li{width:260px;height:40px;margin-left:40px;line-height:40px;}
+.right2 p{width:300px;height:40px;font-size:20px;margin-left:22px;}
+.right3{width:300px;height:100px;margin-top:20px;margin-left:10px;}
+.right3 li{width:150px;height:80px;list-style:none;float:left;line-height:80px;text-align:center;}
+.right3 input{width:100px;height:50px;border-width:0px;background:#F68121;color:white;font-size:18px;border-radius:8px;}
+
+
+.div1{width:1200px;height:400px;}
+.div1 b{display:inline-block;width:80px;height:40px;font-size:20px;border-bottom:2px solid #F68121;font-weight:normal;}
+.div1 .ul1 li b{width:150px ;height:30px;border-bottom:0px;position:absolute;top:212px;font-size:18px;overflow:hidden;}
+.div1 .ul1 li i:nth-of-type(1){display:inline-block;font-style:normal;position:absolute;top:212px;left:170px;color:#6c6c6c;}
+.div1 .ul1 li i:nth-of-type(1) a{color:#F58120;margin-left:0px;}
+.div1 .ul1 li i:nth-of-type(2){position:absolute;top:260px;color:#6c6c6c;}
+.div1 .ul1 li input{height:30px;background:white;border:1px solid #F58120;border-radius:8px;position:absolute;top:255px;left:165px;margin-left:0px;color:#F58120;}
+.div1 .ul1 li input:hover{background:#F58120;color:white;}
+
+
+.div1 a{margin-left:1057px;}
+.div1 p{margin-top:15px;}
+.div1 i{display:inline-block;width:115px;height:20px;font-style:normal;}
+.div1 i span:nth-of-type(1){display:inline-block;margin-top:3px;width:10px;height:10px;border:1px solid #6c6c6c;}
+.div1 i span:nth-of-type(2){color:#6c6c6c;font-size:14px;}
+.div1 input{width:100px;height:40px;border-width:0px;background:#F68121;border-radius:5px;color:white;font-size:16px;margin-left:980px;}
+.div1 ul{margin-top:20px;}
+.div1 ul li{list-style:none;float:left;width:270px;height:300px;border:1px solid #cdd6e5;margin-left:35px;position:relative;}
+.div1 ul li:nth-of-type(1){margin-left:0px;}
+.div1:nth-of-type(1) ul li:nth-of-type(1){background:url(../img/shop/120919160_0.jpg) no-repeat;}
+.div1:nth-of-type(1) ul li:nth-of-type(2){background:url(../img/shop/121006769_0.jpg) no-repeat;}
+.div1:nth-of-type(1) ul li:nth-of-type(3){background:url(../img/shop/121025984_0.jpg) no-repeat;}
+.div1:nth-of-type(1) ul li:nth-of-type(4){background:url(../img/shop/121036921_0.jpg) no-repeat;}
+.div1:nth-of-type(2) ul li:nth-of-type(1){background:url(../img/shop/121708358_0.png) no-repeat;}
+.div1:nth-of-type(2) ul li:nth-of-type(2){background:url(../img/shop/121545400_0.png) no-repeat;}
+.div1:nth-of-type(2) ul li:nth-of-type(3){background:url(../img/shop/121530475_0.jpg) no-repeat;}
+.div1:nth-of-type(2) ul li:nth-of-type(4){background:url(../img/shop/121517600_0.jpg) no-repeat;}
+.div1 ul li span{position:absolute;display:inline-block;width:50px;height:50px;background:url(../img/shop/sprite_eshop.png);background-position-y:-66px;}
+.div1:nth-of-type(2) ul li:nth-of-type(2) span,.div1:nth-of-type(2) ul li:nth-of-type(4) span{background-position-y:-122px;}}
+
